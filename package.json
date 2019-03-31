@@ -2,14 +2,13 @@
   "name": "pokedex",
   "version": "0.1.0",
   "private": true,
-  "installConfig": {
-    "pnp": true
-  },
   "dependencies": {
     "axios": "^0.18.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "styled-components": "^4.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,6 +26,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "babel-plugin-macros": "^2.5.1",
     "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0"
   }
